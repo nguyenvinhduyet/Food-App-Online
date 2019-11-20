@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "67665698840",
+    "firebase_url": "https://foodstore-61cda.firebaseio.com",
+    "project_id": "foodstore-61cda",
+    "storage_bucket": "foodstore-61cda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67665698840:android:78abe5175b5b70c8d3e36d",
+        "android_client_info": {
+          "package_name": "com.example.foodstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67665698840-abm59g6aqghgvl8h4c83pdrqmgsrqmhb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodstore",
+            "certificate_hash": "657ee925d9576103290e21af48c245eda136c0dc"
+          }
+        },
+        {
+          "client_id": "67665698840-967oqm7fcpv8v502fn0qslv4r0vumb1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPEEn7nXF3dmgPJq91ZCmluSWa2ajZBp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67665698840-967oqm7fcpv8v502fn0qslv4r0vumb1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

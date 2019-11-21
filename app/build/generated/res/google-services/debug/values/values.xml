@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">67665698840-967oqm7fcpv8v502fn0qslv4r0vumb1l.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://foodstore-61cda.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">67665698840</string>
+    <string name="google_api_key" translatable="false">AIzaSyDPEEn7nXF3dmgPJq91ZCmluSWa2ajZBp8</string>
+    <string name="google_app_id" translatable="false">1:67665698840:android:78abe5175b5b70c8d3e36d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDPEEn7nXF3dmgPJq91ZCmluSWa2ajZBp8</string>
+    <string name="google_storage_bucket" translatable="false">foodstore-61cda.appspot.com</string>
+    <string name="project_id" translatable="false">foodstore-61cda</string>
+</resources>

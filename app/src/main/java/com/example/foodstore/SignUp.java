@@ -40,8 +40,7 @@ public class SignUp extends AppCompatActivity {
                 final ProgressDialog mDialog = new ProgressDialog(SignUp.this);
                 mDialog.setMessage("Please waiting...");
                 mDialog.show();
-
-                table_user.addValueEventListener(new ValueEventListener() {
+                table_user.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         //Check if already user phone
@@ -56,7 +55,7 @@ public class SignUp extends AppCompatActivity {
                             mDialog.dismiss();
                             User user = new User(edtName.getText().toString(), edtPassword.getText().toString());
                             table_user.child(edtPhone.getText().toString()).setValue(user);
-                            Toast.makeText(SignUp.this, "Sign up succesfully", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignUp.this, "Sign up successfully", Toast.LENGTH_SHORT).show();
                             finish();
                         }
                     }
